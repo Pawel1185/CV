@@ -63,7 +63,7 @@ for (let i = 1; i <=51; i++) {
     const imgWrap = document.createElement("div");
     imgWrap.className = "img-wrapper";
     const img = document.createElement("img");
-    img.src = `../resume/assets/${i}.jpg`;
+    img.src = `./assets/${i}.jpg`;
     img.className = "img-slider";
     imgWrap.append(img);
     slider.append(imgWrap);
